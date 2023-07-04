@@ -1,4 +1,4 @@
-/* main body */
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ a:hover{
 
 
 
-/* navbar  */
+/* navbar section */
 
 nav {
     display: flex;
@@ -77,34 +77,8 @@ nav>div>li {
     border: none;
 }
 
-.dropdown_menu {
-    position: absolute;
-    z-index: 1;
-    opacity: 90%;
-    height: 0;
-    width: 40%;
-    top: 60px;
-    overflow: hidden;
-    background: black;
-    backdrop-filter: blur(15px);
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
 
-.dropdown_menu li {
-    padding: 0.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.dropdown_menu.open {
-    height: 100vh;
-}
-
-/* background image */
+/* Main content section */
 
 .image>img {
     min-width: 100%;
@@ -148,7 +122,7 @@ nav>div>li {
 
 
 
-/*       About Us      */
+/*       About Us section   */
 
 .sect-1 {
     padding: 40px 0;
@@ -187,7 +161,7 @@ nav>div>li {
 
 
 
-/* Menu */
+/* Menu section */
 
 .sect-2 {
     padding: 40px 0px;
@@ -247,7 +221,7 @@ nav>div>li {
 .items-right>p {
     line-height: 1.7em;
 }
-/* carousel styling */
+/* carousel section */
 .sect-4{
     padding: 90px 0px;
     padding-bottom: 220px;
@@ -271,7 +245,7 @@ nav>div>li {
 
 
 
-/* gallary styling */
+/* gallary section */
 .sect-5 > .img {
     display: flex;
     width: 100%;
@@ -280,23 +254,21 @@ nav>div>li {
     }
     
     .sect-5 > .img img:first-child {
-    flex: 1 1 50%; /* Take up 50% of the available space */
-    /* width: 50%; Full size for the first image */
-    /* height: auto; */
+    flex: 1 1 50%;
     }
    
 
     .sect-5 > .img-container {
-    flex: 1 1 50%; /* Take up 50% of the available space */
+    flex: 1 1 50%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns for the grid */
-    grid-gap: 10px; /* Adjust the gap between images as needed */
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px; 
     }
     
     
     .sect-5 > .img-container img {
-    width: 33%; /* Adjust the width of subsequent images as needed */
-    /* height: auto; */
+    width: 33%;
+    
     }
     .sect-5 > .img-container-1 img {
         width:25%;
@@ -458,7 +430,7 @@ footer {
 
 
     .items-right>h3 {
-        /* color: #F2C94C; */
+        
         padding-bottom: 0;
     }
 
