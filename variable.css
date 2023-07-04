@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Ruda:wght@400;700&display=swap');
+
+
+:root{
+    --color-black : rgb(0, 0, 0, 1);
+    --color-white : rgb(255, 255, 255, 1);
+    --color-red :   rgba(182, 40, 40, 1);
+    --color-yellow :rgba(242, 201, 76, 1);
+
+    --fw-700 : 700;
+    --fw-400 : 400;
+    
+    --font-family: 'Ruda', sans-serif;
+    --font-family: 'Quattrocento', serif;
+}
